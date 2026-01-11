@@ -1,0 +1,51 @@
+.header {
+  padding: 24px 0px;
+  background-color: var(--inputs);
+  border-bottom: 1px solid var(--badges);
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headerLink {
+  text-decoration: none;
+}
+
+.logo {
+  line-height: 0;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+  display: inline-block;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.navigation {
+  display: flex;
+  margin-left: 450px;
+  padding: 0;
+  gap: 32px;
+}
+
+.navigationItem {
+  display: flex;
+  align-items: center;
+}
+
+.navigationLink {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--main);
+}
+
+.navigationLink:hover,
+.navigationLink:focus,
+.navigationLink:active {
+  color: var(--button-hover);
+}

@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  padding: 44px 57px;
+  width: 641px;
+  height: 100%;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  color: var(--main);
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--gray);
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 18px;
+  background-color: var(--inputs);
+  border: none;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--main);
+  outline: none;
+}
+
+.textarea {
+  resize: none;
+}
+
+.errorBorder {
+  border: 1px solid var(--button);
+}
+
+.errorText {
+  color: var(--button);
+  font-size: 12px;
+}
+
+.submitButton {
+  margin: 0 auto;
+  border-radius: 200px;
+  padding: 16px 63px;
+  background-color: var(--button);
+  width: 166px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.submitButton:hover,
+.submitButton:focus,
+.submitButton:active {
+  background-color: var(--button-hover);
+}
+
+.datePickerWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.calendarDropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}

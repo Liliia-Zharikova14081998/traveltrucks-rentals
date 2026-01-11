@@ -1,0 +1,125 @@
+.sidebar {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.locationSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.locationLabel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--gray);
+}
+
+.locationInputWrapper {
+  position: relative;
+}
+
+.locationIcon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.locationInput {
+  border-radius: 12px;
+  border-color: transparent;
+  padding-left: 48px;
+  width: 360px;
+  height: 56px;
+  background-color: var(--inputs);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main);
+}
+
+.equipmentSection {
+  margin-top: 32px;
+}
+
+.filterHeading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main);
+  margin-bottom: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(16, 24, 40, 0.1);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.filterBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid var(--gray-light);
+  border-radius: 12px;
+  padding: 16px 18px;
+  width: 112px;
+  height: 96px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--main);
+}
+
+.filterBtn:hover {
+  border-color: var(--button);
+}
+
+.filterBtn.active {
+  border-color: var(--button);
+}
+
+.featureIcon {
+  flex-shrink: 0;
+}
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.searchBtn {
+  margin-top: 8px;
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  background-color: var(--button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.searchBtn:hover,
+.searchBtn:focus,
+.searchBtn:active {
+  background-color: var(--button-hover);
+}

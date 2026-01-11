@@ -1,0 +1,10 @@
+.catalogWrapper {
+  display: flex;
+  gap: 64px;
+  padding-top: 48px;
+  align-items: flex-start;
+}
+
+.mainContent {
+  flex-grow: 1;
+}

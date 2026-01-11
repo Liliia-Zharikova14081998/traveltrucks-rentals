@@ -1,0 +1,48 @@
+.contentWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.mainContent {
+  flex-grow: 1;
+}
+
+.loadMoreBtn {
+  border: 1px solid var(--gray-light);
+  border-radius: 200px;
+  padding: 16px 32px;
+  width: 145px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--main);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 52px;
+}
+
+.loadMoreBtn:hover,
+.loadMoreBtn:focus,
+.loadMoreBtn:active {
+  border-color: var(--button);
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  width: 100%;
+}
+
+.loadMoreWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  min-height: 60px;
+}
