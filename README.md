@@ -31,7 +31,7 @@
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/Liliia-Zharikova14081998/traveltrucks-rentals](https://github.com/Liliia-Zharikova14081998/traveltrucks-rentals)
+    git clone https://github.com/Liliia-Zharikova14081998/traveltrucks-rentals
     cd your-repo-name
     ```
 
@@ -54,5 +54,3 @@
 - `lib/` — API services, Axios config, and Zustand stores.
 - `types/` — TypeScript interfaces and types.
 - `public/` — Static assets (favicon, SVG icons, logo).
-
-* **`public/`** — статичні ресурси (іконки, картинки).

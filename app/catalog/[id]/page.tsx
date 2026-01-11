@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
     openGraph: {
       title: camper ? camper.name : "Camper Not Found",
       description: camper ? camper.description.slice(0, 150) : "Not found",
-      url: `https://08-zustand-topaz-eight.vercel.app/catalog/${id}`,
+      url: `https://traveltrucks-rentals.vercel.app/catalog/${id}`,
       images: [
         {
           url: camper ? camper.gallery[0].thumb : '/images/hero.jpg',

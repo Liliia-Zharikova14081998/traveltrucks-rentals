@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Travel Trucks',
     description: 'Find your perfect camper and start your journey today.',
+    url: 'https://traveltrucks-rentals.vercel.app/',
     images: [
       {
         url: '/images/hero.png',

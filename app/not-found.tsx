@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Page not found | Travel Trucks",
     description: "The page you are looking for does not exist.",
-    url: 'https://08-zustand-topaz-eight.vercel.app/not-found',
     images: [
       {
         url: '/images/hero.jpg', 

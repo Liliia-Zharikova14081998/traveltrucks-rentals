@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Catalog | Travel Trucks Rentals',
     description: 'Find the best campers for your next adventure in our catalog.',
+    url: `https://traveltrucks-rentals.vercel.app/catalog`,
     images: [
       {
         url: '/images/hero.jpg', 
