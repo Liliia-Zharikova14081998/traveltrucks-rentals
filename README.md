@@ -32,7 +32,7 @@
 
     ```bash
     git clone https://github.com/Liliia-Zharikova14081998/traveltrucks-rentals
-    cd your-repo-name
+    cd traveltrucks-rentals
     ```
 
 2.  **Install dependencies:**
