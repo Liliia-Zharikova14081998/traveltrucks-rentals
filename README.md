@@ -1,3 +1,8 @@
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)
+![React](https://img.shields.io/badge/React-20232A?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)
+
 # 🚐 Travel Trucks Rentals
 
 **Travel Trucks Rentals** is a modern camper rental platform built with Next.js. It allows users to browse a catalog of vehicles, filter them by various features, view detailed information, manage a "Favorites" list, and book their next adventure.
