@@ -9,7 +9,7 @@
 
 ## 🚀 Demo
 
-🔗 [Live Demo Link](https://08-zustand-topaz-eight.vercel.app/)
+🔗 [Live Demo Link](https://traveltrucks-rentals.vercel.app/)
 
 ## 🛠 Tech Stack
 
